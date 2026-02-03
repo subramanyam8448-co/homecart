@@ -1,7 +1,9 @@
 node_modules
 .expo
 .git
-dist
-web-build
+.gitignore
 Dockerfile
 .dockerignore
+npm-debug.log
+dist
+web-build
