@@ -29,6 +29,13 @@ export default function TabLayout() {
                     tabBarIcon: ({ color, size }) => <Ionicons name="person" size={size} color={color} />
                 }}
             />
+            <Tabs.Screen
+                name="viewer"
+                options={{
+                    title: 'Live',
+                    tabBarIcon: ({ color, size }) => <Ionicons name="globe" size={size} color={color} />
+                }}
+            />
         </Tabs>
     );
 }
